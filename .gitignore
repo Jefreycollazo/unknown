@@ -7,10 +7,19 @@ Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
+Build/
+FileOpenOrder/
 
 # Packaged builds
 Builds/
 StagedBuilds/
+
+# Per-user Unreal Content (local sandbox / collections)
+**/Content/Developers/
+**/Content/Collections/
+
+# Per-user editor settings (keep local copy; do not track)
+DefaultEditorPerProjectUserSettings.ini
 
 # Visual Studio / Rider / VS Code
 .vs/
@@ -22,6 +31,12 @@ StagedBuilds/
 *.sdf
 *.VC.db
 *.VC.opendb
+*.DotSettings.user
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+*.dSYM
 
 # macOS
 .DS_Store
@@ -31,6 +46,9 @@ StagedBuilds/
 # Windows
 Thumbs.db
 Desktop.ini
+*.pdb
+*.dmp
+*.mdmp
 
 # Temporary files
 *.tmp
