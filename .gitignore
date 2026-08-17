@@ -1,0 +1,38 @@
+# ==========================================
+# Project Unknown - Unreal Engine
+# ==========================================
+
+# Unreal generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Packaged builds
+Builds/
+StagedBuilds/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
